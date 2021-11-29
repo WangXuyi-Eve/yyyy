@@ -1,13 +1,14 @@
 import React from 'react';
 import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { Tabs } from '@ant-design/react-native';
-import Appy from '../View/essaysearch'
+import {Hello} from '../View/hello'
+import {UserInfoSetting} from '../View/UserInfoSetting'
 
-class BasicTabs extends React.Component {
+class UserTab extends React.Component {
     render() {
         const tabs = [
-            { title: '分享广场' },
-            { title: '文献专区' },
+            { title: '我的设置' },
+            { title: '修改资料' },
         ];
 
 
@@ -16,10 +17,10 @@ class BasicTabs extends React.Component {
                 <Tabs tabs={tabs}
                 >
                     <ScrollView >
-                        <Appy/>
+                        <Hello/>
                     </ScrollView>
                     <ScrollView>
-                        <Appy/>
+                        <UserInfoSetting/>
                     </ScrollView>
 
                 </Tabs>
@@ -28,12 +29,6 @@ class BasicTabs extends React.Component {
         );
     }
 }
-export default BasicTabs;
+export default UserTab;
 export const title = 'Tabs';
 export const description = 'Tabs example';
-
-
-
-
-
-

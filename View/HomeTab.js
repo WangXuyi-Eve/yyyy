@@ -6,14 +6,18 @@ import Page from '../View/writing'
 import Appy from '../View/essaysearch'
 import Icon from 'react-native-vector-icons/AntDesign'
 import Pagex from '../View/explanation'
-import BasicTabs from '../components/topTab_wateringSquare'
+import BasicTabs from '../components/topTab_practice'
+import BasicTab from '../components/topTab_everydayLearning'
+import {Learning} from '../View/learning'
+import WateringTab from '../components/topTab_wateringSquare'
+import UserTab from '../components/topTab_userSetting'
 
 
 class HomeTab extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedTab: 'redTab',
+            selectedTab: 'blueTab',
         };
     }
     renderContent(pageText) {
@@ -42,8 +46,7 @@ class HomeTab extends React.Component {
                     selected={this.state.selectedTab === 'blueTab'}
                     onPress={() => this.onChangeTab('blueTab')}
                 >
-                    {/*<Pagex/>*/}
-                    <BasicTabs/>
+                    <BasicTab/>
                 </TabBar.Item>
                 <TabBar.Item
                     icon={<Icon style={{color:'grey'}} name={'edit'} size={20}/>}
@@ -60,7 +63,7 @@ class HomeTab extends React.Component {
                     selected={this.state.selectedTab === 'greenTab'}
                     onPress={() => this.onChangeTab('greenTab')}
                 >
-                    <Appy/>
+                    <WateringTab/>
                 </TabBar.Item>
                 <TabBar.Item
                     icon={ <Icon style={{color:'grey'}} name={'user'} size={20}/>}
@@ -68,7 +71,7 @@ class HomeTab extends React.Component {
                     selected={this.state.selectedTab === 'yellowTab'}
                     onPress={() => this.onChangeTab('yellowTab')}
                 >
-                    <Hello/>
+                    <UserTab/>
                 </TabBar.Item>
             </TabBar>
         );
