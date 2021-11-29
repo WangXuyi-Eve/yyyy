@@ -1,25 +1,25 @@
 import React from 'react';
 import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { Tabs } from '@ant-design/react-native';
-import Appy from '../View/essaysearch'
+import Pagex from '../View/explanation'
+import Page from '../View/writing'
 
 class BasicTabs extends React.Component {
     render() {
         const tabs = [
-            { title: '分享广场' },
-            { title: '文献专区' },
+            { title: '应用语库' },
+            { title: '实战造句' },
         ];
 
 
         return (
             <View style={{ flex: 1 }}>
-                <Tabs tabs={tabs}
-                >
+                <Tabs tabs={tabs}>
                     <ScrollView >
-                        <Appy/>
+                        <Pagex/>
                     </ScrollView>
                     <ScrollView>
-                        <Appy/>
+                        <Page/>
                     </ScrollView>
 
                 </Tabs>
@@ -31,9 +31,3 @@ class BasicTabs extends React.Component {
 export default BasicTabs;
 export const title = 'Tabs';
 export const description = 'Tabs example';
-
-
-
-
-
-

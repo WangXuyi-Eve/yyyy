@@ -145,10 +145,9 @@ const styles = StyleSheet.create({
         lineHeight: 35,
     },
     more_empha: {
-        color: 'darkblue',
+        color: 'darkorange',
         fontSize: 15,
         lineHeight: 35,
-        backgroundColor: 'khaki'
     },
     getMore_box: {
         paddingTop: 16,

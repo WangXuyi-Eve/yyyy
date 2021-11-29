@@ -9,33 +9,33 @@ export const Hello = () => {
 
   return (
       <Provider>
-          <View
-              style={{height:50,backgroundColor:'whitesmoke',flexDirection:"row"}}
-          >
-              <View
-                  style={{width:"15%"}}
-              >
-                  <Text>
+          {/*<View*/}
+          {/*    style={{height:50,backgroundColor:'whitesmoke',flexDirection:"row"}}*/}
+          {/*>*/}
+          {/*    <View*/}
+          {/*        style={{width:"15%"}}*/}
+          {/*    >*/}
+          {/*        <Text>*/}
 
-                  </Text>
-              </View>
-              <View
-                  style={{width:"70%",alignItems:"center", justifyContent: 'center'}}
-              >
-                  <Text
-                      style={{color:'darkslategrey'}}
-                  > 我的设置 </Text>
-              </View>
-              <View
-                  style={{width:"15%",alignItems:"center",justifyContent: 'center'}}
-              >
-                  <Text
-                      style={{color:'darkslategrey'}}>
-                      帮助
-                  </Text>
-              </View>
+          {/*        </Text>*/}
+          {/*    </View>*/}
+          {/*    <View*/}
+          {/*        style={{width:"70%",alignItems:"center", justifyContent: 'center'}}*/}
+          {/*    >*/}
+          {/*        <Text*/}
+          {/*            style={{color:'darkslategrey'}}*/}
+          {/*        > 我的设置 </Text>*/}
+          {/*    </View>*/}
+          {/*    <View*/}
+          {/*        style={{width:"15%",alignItems:"center",justifyContent: 'center'}}*/}
+          {/*    >*/}
+          {/*        <Text*/}
+          {/*            style={{color:'darkslategrey'}}>*/}
+          {/*            帮助*/}
+          {/*        </Text>*/}
+          {/*    </View>*/}
 
-          </View>
+          {/*</View>*/}
     <ScrollView>
 
 
@@ -126,24 +126,6 @@ export const Hello = () => {
             <List.Item style={{height: 30}}>
                 <Text>this is an item2</Text>
             </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item3</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item4</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item5</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item6</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item7</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item8</Text>
-            </List.Item>
         </List>
         <List renderHeader={'学习情况'}
         >
@@ -153,24 +135,6 @@ export const Hello = () => {
             <List.Item style={{height: 30}}>
                 <Text>this is an item2</Text>
             </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item3</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item4</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item5</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item6</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item7</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item8</Text>
-            </List.Item>
         </List>
         <List renderHeader={'其他'}
         >
@@ -179,24 +143,6 @@ export const Hello = () => {
             </List.Item>
             <List.Item style={{height: 30}}>
                 <Text>this is an item2</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item3</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item4</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item5</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item6</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item7</Text>
-            </List.Item>
-            <List.Item style={{height: 30}}>
-                <Text>this is an item8</Text>
             </List.Item>
         </List>
 

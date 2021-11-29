@@ -12,33 +12,32 @@ export const UserInfoSetting = () => {
     const conste = "未填写";
     return(
         <Provider>
-            <View
-                style={{height:50,backgroundColor:'whitesmoke',flexDirection:"row"}}
-            >
-                <View
-                    style={{width:"15%",alignItems:"center", justifyContent: 'center'}}
-                >
-                    <Icon style={{color:'steelblue'}} name={'left'} size={17}/>
-                </View>
-                <View
-                    style={{width:"70%",alignItems:"center", justifyContent: 'center'}}
-                >
-                    <Text
-                        style={{color:'steelblue',fontSize:15}}
-                    >
-                    个人资料
-                    </Text>
-                </View>
-                <View
-                    style={{width:"15%",alignItems:"center",justifyContent: 'center'}}
-                >
-                    <Text
-                        style={{color:'darkslategrey'}}>
+            {/*<View*/}
+            {/*    style={{height:40,backgroundColor:'whitesmoke',flexDirection:"row"}}*/}
+            {/*>*/}
+            {/*    <View*/}
+            {/*        style={{width:"15%",alignItems:"center", justifyContent: 'center'}}*/}
+            {/*    >*/}
+            {/*        <Icon style={{color:'steelblue'}} name={'left'} size={17}/>*/}
+            {/*    </View>*/}
+            {/*    <View*/}
+            {/*        style={{width:"70%",alignItems:"center", justifyContent: 'center'}}*/}
+            {/*    >*/}
+            {/*        <Text*/}
+            {/*            style={{color:'steelblue',fontSize:15}}*/}
+            {/*        >*/}
+            {/*        个人资料*/}
+            {/*        </Text>*/}
+            {/*    </View>*/}
+            {/*    <View*/}
+            {/*        style={{width:"15%",alignItems:"center",justifyContent: 'center'}}*/}
+            {/*    >*/}
+            {/*        <Text*/}
+            {/*            style={{color:'darkslategrey'}}>*/}
 
-                    </Text>
-                </View>
-
-            </View>
+            {/*        </Text>*/}
+            {/*    </View>*/}
+            {/*</View>*/}
             <ScrollView>
                 <View style={{height:13,backgroundColor:'whitesmoke'}}>
                     <Text> </Text>

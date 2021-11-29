@@ -14,25 +14,6 @@ import Inputs from '../components/inputBox';
 const Appy = () => {
     return (
         <ScrollView>
-            <View
-                style={{height:50,backgroundColor:'whitesmoke',flexDirection:"row"}}
-            >
-                <View
-                    style={{width:"50%",alignItems:"center", justifyContent: 'center'}}
-                >
-                    <Text
-                        style={{color:'darkslategrey'}}
-                    > 分享广场 </Text>
-                </View>
-                <View
-                    style={{width:"50%",alignItems:"center",justifyContent: 'center'}}
-                >
-                    <Text
-                        style={{color:'rgba(110, 210, 110, 1)'}}>
-                        文献专区
-                    </Text>
-                </View>
-            </View>
             <View>
                 <Inputs />
             </View>
